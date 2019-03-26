@@ -12,7 +12,7 @@ public class Service {
 	}
 	
 	public void helloJava() {
-		System.out.println("Hello Java!");
+		System.out.println("Hello Java world!");
 		System.out.println("nice!12345");
 	}
 }
