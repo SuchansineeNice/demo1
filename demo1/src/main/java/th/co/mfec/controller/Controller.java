@@ -16,4 +16,9 @@ public class Controller {
 	public void helloWorld() {
 		service.helloWorld();
 	}
+	
+	@PostMapping("/HelloJava")
+	public void helloJava() {
+		service.helloJava();
+	}
 }

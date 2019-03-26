@@ -10,4 +10,8 @@ public class Service {
 		System.out.println("****Hello Jenkins!****");
 		System.out.println("Hi nice!");
 	}
+	
+	public void helloJava() {
+		System.out.println("Hello Java!");
+	}
 }
