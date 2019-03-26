@@ -1,10 +1,5 @@
 pipeline{
   stages{
-    stage('SCM CheckOut'){
-      steps{
-        git 'https://github.com/SuchansineeNice/demo1.git'
-      }
-    }
     stage('Compile-Package'){
       steps{
         sh "mvn package"
