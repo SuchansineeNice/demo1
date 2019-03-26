@@ -1,0 +1,8 @@
+node{
+  stage('SCM CheckOut'){
+    git 'https://github.com/SuchansineeNice/demo1.git'
+  }
+  stage('Compile-Package'){
+    sh 'mvn package'
+  }
+}
