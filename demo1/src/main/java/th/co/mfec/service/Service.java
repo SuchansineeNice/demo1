@@ -13,6 +13,6 @@ public class Service {
 	
 	public void helloJava() {
 		System.out.println("Hello Java world!");
-		System.out.println("nice! MFEC");
+		System.out.println("nice! MFEC2019");
 	}
 }
