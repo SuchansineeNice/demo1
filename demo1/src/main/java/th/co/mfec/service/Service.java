@@ -13,6 +13,6 @@ public class Service {
 	
 	public void helloJava() {
 		System.out.println("Hello Java!");
-		System.out.println("nice!");
+		System.out.println("nice!12345");
 	}
 }
